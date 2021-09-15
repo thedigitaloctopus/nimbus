@@ -24,15 +24,19 @@ Before starting, make sure you have met the following requirements:
 
 ## 🚀 Installing Nimbus
 
-Para instalar o Nimbus, siga estas etapas:
+To install nimbus, follow these steps:
   
 ```
+- import sql data into mysql/mariadb database.
+- set the mysql credentials into .env file.
+- run api with the following commands:
+
 go run api
  
 or 
   
 go build run api
-  
+
 ```
 
 ## ☕ API Documentation 
